@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <html>
+<head>
+
+
+<title>REGISTRATION FORM</title>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    form {
+        border: 2px solid #006989;
+        padding: 50px;
+        width: 400px;
+        margin: 50 auto;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        box-sizing: border-box; 
+    }
+    
+    input[type="radio"]
+    {
+        display: inline-block;
+        margin-right: 20px;
+      
+    }
+    input[type="checkbox"] 
+    {
+        display: inline-block;
+        margin-right: 50px;
+      
+    }
+    
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+    
+        cursor: hand;
+        width: 100%;
+    }
+    
+    
+    
+</style>
+    </head>
+    <body>
+        <form>
+        <h1>REGISTRATION FORM</h1>
+        <lable for= "fname">Name</lable>
+        <input type="text" name="fname">
+        <br>
+        <br>
+        <label>Enter your email</label>
+        <input
+            type="email"
+            name="email"><br>
+            <br>
+            <label>Enter your gender</label>
+            <input
+                type="radio"
+                name="gender"
+                value="male"
+            />Male
+            <input
+                type="radio"
+                name="gender"
+                value="female"
+            />Female
+            <br>
+            <br>
+            <label>Enter your College Name</label>
+        <input
+            type="text"
+            name="clgname"><br>
+            <br>
+
+            <label>Events interested</label>
+            <input type="checkbox" id="solo_dance" name="competition" value="solo_dance">
+  <label for="solo_dance">Solo Dance</label><br>
+  
+  <input type="checkbox" id="group_dance" name="competition" value="group_dance">
+  <label for="group_dance">Group Dance</label><br>
+  
+  <input type="checkbox" id="debate" name="competition" value="debate">
+  <label for="debate">Debate</label><br>
+  
+  <input type="checkbox" id="beatboxing" name="competition" value="beat boxing">
+  <label for="beat boxing">Beat Boxing</label><br>
+  
+  <input type="checkbox" id="quiz" name="competition" value="quiz">
+  <label for="quiz">Quiz</label><br>
+  <br>
+             <input type="submit" value="Submit">
+    </form>
+ </body>
+</html>
