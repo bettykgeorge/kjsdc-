@@ -1,0 +1,128 @@
+
+<html>
+<head>
+
+<title>My Portfolio</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    .center {
+        text-align: center;
+    }
+    #about, #skills {
+        padding: 20px 0;
+    }
+
+   
+    #skills {
+        background-color: #e7dbdb; 
+        padding: 20px; 
+    }
+    
+    #contact {
+        background-color: #b99898; 
+        padding: 20px; 
+    }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">BETTY K</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+              
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container center">
+    <h2>Welcome to My Portfolio</h2>
+</div>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="pic.jpg" class="d-block w-100" alt="Picture Error">
+        </div>
+    </div>
+</div>
+
+<section id="about" class="center">
+    <h2>About Me</h2>
+    <p>
+        Hello! My name is Betty K, and I'm currently pursuing a Bachelor of Computer Applications (BCA)
+         degree. I have a solid foundation in programming languages such as C, C++, Java, and Python.
+          I've also developed interests in problem-solving, teamwork, and continuous learning.
+        I have a solid foundation in programming languages such as C, C++, Java, and Python. 
+        Through hands-on projects and assignments, I've gained practical experience in solving
+         real-world problems using these languages.</p>
+</section>
+
+<section id="skills" class="left">
+    <h2>Skills</h2>
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>Version Control: Git</li>
+        <li>Programming Languages: C, C++, Java, Visual Basic</li>
+        <li>Web Development: HTML, CSS</li>
+    </ul>
+    <h3>Soft Skills</h3>
+    <ul>
+        <li>Teamwork</li>
+        <li>Leadership</li>
+        <li>Communication</li>
+        <li>Problem-Solving</li>
+    </ul>
+    <h3>Projects</h3>
+    <ul>
+        <li>Developed a software "Online shopping system" using vb.net and sql.</li>
+        <li>Developed calculator using html,css and js.</li>
+       
+    </ul>
+</section>
+
+<section id="contact">
+ 
+    <h2>Contact</h2>
+    <img src="Cnt.PNG" >
+   
+    <p>Email: <a href="mailto:bettykgeorge17@gmail.com">bettykgeorge17@gmail.com</a></p>
+    <p>Phone: 9606643932</p>
+</section>
+
+<footer class="footer bg-light center">
+    <div class="container">
+        <span class="text-muted">Copyright &copy; 2024 My Portfolio</span>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.navbar-nav .nav-link').click(function(){
+            $('.navbar-nav .nav-link').removeClass('active');
+            $(this).addClass('active');
+        });
+    });
+</script>
+
+</body>
+</html>
