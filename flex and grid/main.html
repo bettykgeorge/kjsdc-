@@ -1,0 +1,73 @@
+
+<html>
+    <head>
+        <title>flex and html</title>
+    
+        <style>
+.flex-container{
+    display:flex;
+   background-color: #00203FFF;
+   
+   flex-wrap: wrap;
+   
+}
+.flex-container  div{
+    background-color: #ADEFD1FF;
+    margin: 30px;;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+
+}
+
+.item3
+{
+    flex-grow: 1;
+} 
+
+.grid-container 
+{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+
+}
+
+.grid-container div {
+            background-color: #B1B3B3FF;
+            padding: 20px;
+            font-size: 20px;
+            border-radius: 0px;
+            border: 2px solid #151515;
+            
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <h1>Flex</h1>
+        <div class ="flex-container ">
+        <div class="item1">apple</div>
+        <div class="item2">mango</div>
+        <div class="item3">banana</div>
+        <div class="item4">tomato</div>
+        <div class="item5">papaya</div>
+        <div class="item6">jackfruit</div>
+        <div class="item7">strawberry</div>
+        <div class="item8">kiwi</div>
+
+    </div>
+    <h1>Grid</h1>
+
+    <div class="grid-container ">
+    <div class="item1">apple</div>
+        <div class="itema">mango</div>
+        <div class="itemb">banana</div>
+        <div class="item4c">tomato</div>
+        <div class="itemd">papaya</div>
+        <div class="iteme">jackfruit</div>
+        <div class="itemf">strawberry</div>
+        <div class="itemg">kiwi</div>
+    </body>
+</html>
+
